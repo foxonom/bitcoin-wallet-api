@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Headzoo\\Bitcoin\\Wallet\\Api": "src/Headzoo/Bitcoin/Wallet/Api"
+            "Headzoo\\Bitcoin\\Wallet\\Api\\": "src/Headzoo/Bitcoin/Wallet/Api"
         }
     }
 }
