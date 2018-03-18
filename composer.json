@@ -12,12 +12,19 @@
             "email": "sean@headzoo.io"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/foxonom/web-tools"
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "version": "dev-bugfix",
+            "name": "headzoo/web-tools",
+            "source":
+            {
+            "url": "https://github.com/foxonom/web-tools",
+            "type": "git",
+            "reference": "dev-bugfix"
+            }
         }
-    ],
+    }],
     "require": {
         "php": ">=5.5.0",
         "ext-simplexml": "*",
